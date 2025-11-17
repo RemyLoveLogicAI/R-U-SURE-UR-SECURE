@@ -1,10 +1,14 @@
 # 🔒 SecureVault - R U SURE UR SECURE?
 
-A **production-ready, client-side password manager** with military-grade encryption, 2FA support, and API key management.
+A **production-ready password manager** with military-grade encryption, 2FA support, and API key management.
+
+Available in **two versions:**
+- 🌐 **[Web App](.)** - React + TypeScript for browser use
+- 📱 **[iOS Native App](ios/)** - Swift + SwiftUI to replace Apple Passwords
 
 ## 🎯 Purpose
 
-This project demonstrates **secure web application development** by addressing common security vulnerabilities found in password managers. Built for the **R-U-SURE-UR-SECURE** repository to showcase proper security practices.
+This project demonstrates **secure application development** by addressing common security vulnerabilities found in password managers. Built for the **R-U-SURE-UR-SECURE** repository to showcase proper security practices across platforms.
 
 ## ✅ Security Features
 
