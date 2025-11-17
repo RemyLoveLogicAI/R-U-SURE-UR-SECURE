@@ -1,0 +1,36 @@
+/**
+ * Popular API providers with direct links to key generation pages
+ */
+
+export const API_PROVIDERS: Record<string, string> = {
+  'OpenAI': 'https://platform.openai.com/api-keys',
+  'Anthropic (Claude)': 'https://console.anthropic.com/settings/keys',
+  'Google Cloud (GCP)': 'https://console.cloud.google.com/apis/credentials',
+  'AWS': 'https://console.aws.amazon.com/iam/home#/security_credentials',
+  'Microsoft Azure': 'https://portal.azure.com/#view/Microsoft_Azure_ProjectOxford/CognitiveServicesHub',
+  'Stripe': 'https://dashboard.stripe.com/apikeys',
+  'PayPal': 'https://developer.paypal.com/api/rest/',
+  'Twilio': 'https://console.twilio.com/us1/account/keys-credentials/api-keys',
+  'SendGrid': 'https://app.sendgrid.com/settings/api_keys',
+  'GitHub': 'https://github.com/settings/tokens',
+  'GitLab': 'https://gitlab.com/-/profile/personal_access_tokens',
+  'Vercel': 'https://vercel.com/account/tokens',
+  'Netlify': 'https://app.netlify.com/user/applications#personal-access-tokens',
+  'Cloudflare': 'https://dash.cloudflare.com/profile/api-tokens',
+  'DigitalOcean': 'https://cloud.digitalocean.com/account/api/tokens',
+  'Heroku': 'https://dashboard.heroku.com/account/applications',
+  'Firebase': 'https://console.firebase.google.com/project/_/settings/serviceaccounts/adminsdk',
+  'Supabase': 'https://supabase.com/dashboard/project/_/settings/api',
+  'MongoDB Atlas': 'https://cloud.mongodb.com/v2#/account/publicApi',
+  'Pinecone': 'https://app.pinecone.io/organizations/-/projects/-/keys',
+  'Cohere': 'https://dashboard.cohere.com/api-keys',
+  'Hugging Face': 'https://huggingface.co/settings/tokens',
+  'Replicate': 'https://replicate.com/account/api-tokens',
+  'ElevenLabs': 'https://elevenlabs.io/app/settings/api-keys',
+  'Stability AI': 'https://platform.stability.ai/account/keys',
+  'Mapbox': 'https://account.mapbox.com/access-tokens/',
+  'Google Maps': 'https://console.cloud.google.com/google/maps-apis/credentials',
+  'Slack': 'https://api.slack.com/apps',
+  'Discord': 'https://discord.com/developers/applications',
+  'Telegram': 'https://my.telegram.org/auth',
+};
